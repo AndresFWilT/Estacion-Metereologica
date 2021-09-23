@@ -1,0 +1,121 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: center;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  body {
+    margin: 0;
+    /*background-image: url('../recursos/Images/Clima.jpg');*/
+    background-repeat:inherit;
+    background-position:center;
+    background-color: #000000;
+    display: block;
+    margin: auto;
+  }
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    color:#FEFCFB;
+    font-size: 12px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #B8711B;
+    color: #181d35;
+    font-size: 0.7rem;
+  }
+  .boton1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    color: #B8711B;
+    background-color: #181d35;
+    border-radius: 15px;
+    border: 3px double #242c50;
+    float:right
+  }
+  .boton1:hover{
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .content {
+    padding: 20px;
+  }
+  #chart-humedad.container{
+    height: 100px;
+    width: 100px;
+  }
+  .card {
+    background-color: white;
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+  }
+  .card-title {
+    color:#66003b;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .card-subtitle {
+    color:#66003b;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  .card-big{
+    background-color: #181d35;
+    box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+    float:left;
+  }
+  .cards {
+    max-width: 750px;
+    margin: 0 auto;
+    display: grid; grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .reading{
+    color:#492b3d;
+    font-weight: lighter;
+    font-size: 13px;
+    float:inline-start;
+  }
+  .highcharts-figure, .highcharts-data-table table {
+    min-width: 360px; 
+    max-width: 360px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: 'Times New Roman', Times, serif;
+	border-collapse: collapse;
+	border: 1px solid #EBEBEB;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+	max-width: 360px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 100;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
